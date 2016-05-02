@@ -1,0 +1,19 @@
+{
+    "name": "Messenger",
+    "version": "1.0.0",
+    "description": "FAceBook nw app",
+    "main": "index.html",
+    "window": {
+        "title": "node-webkit demo",
+        "toolbar": true,
+        "width": 900,
+        "height": 600,
+        "min_width": 900,
+        "min_height": 600
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Muhsin",
+    "license": "MIT"
+}

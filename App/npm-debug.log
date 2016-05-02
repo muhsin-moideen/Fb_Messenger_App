@@ -1,0 +1,195 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'nw-builder',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'nw-builder', null ]
+7 verbose cache add spec nw-builder
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'nw-builder',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'nw-builder',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed nw-builder@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for nw-builder
+11 info addNameTag [ 'nw-builder', 'latest' ]
+12 silly mapToRegistry name nw-builder
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/nw-builder
+16 verbose addNameTag registry:https://registry.npmjs.org/nw-builder not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/nw-builder
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 11:32:18 PM
+20 verbose request id e07c5a31e1f15c60
+21 http request GET https://registry.npmjs.org/nw-builder
+22 http 200 https://registry.npmjs.org/nw-builder
+23 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   etag: '"BGMR3HZAKL67D6WSTAERELN11"',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'content-encoding': 'gzip',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'content-length': '5732',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Sun, 01 May 2016 18:02:21 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '0',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '1',
+23 verbose headers   'x-timer': 'S1462125740.878708,VS0,VE1000',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"BGMR3HZAKL67D6WSTAERELN11"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'content-encoding': 'gzip',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '5732',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Sun, 01 May 2016 18:02:21 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-sin6927-SIN',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1462125740.878708,VS0,VE1000',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose get saving nw-builder to /Users/muhsin/.npm/registry.npmjs.org/nw-builder/.cache.json
+26 verbose correctMkdir /Users/muhsin/.npm correctMkdir not in flight; initializing
+27 silly addNameTag next cb for nw-builder with tag latest
+28 silly addNamed nw-builder@2.2.0
+29 verbose addNamed "2.2.0" is a plain semver version for nw-builder
+30 silly mapToRegistry name nw-builder
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/nw-builder
+34 verbose addRemoteTarball https://registry.npmjs.org/nw-builder/-/nw-builder-2.2.0.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/nw-builder/-/nw-builder-2.2.0.tgz',
+35 verbose addRemoteTarball   '47afab91efacb02747ced205352030b7e08df63d' ]
+36 info retry fetch attempt 1 at 11:32:22 PM
+37 info attempt registry request try #1 at 11:32:22 PM
+38 http fetch GET https://registry.npmjs.org/nw-builder/-/nw-builder-2.2.0.tgz
+39 http fetch 200 https://registry.npmjs.org/nw-builder/-/nw-builder-2.2.0.tgz
+40 silly fetchAndShaCheck shasum 47afab91efacb02747ced205352030b7e08df63d
+41 verbose addTmpTarball /var/folders/r7/lkjjshsx01vdddg_6xqrtn1w0000gp/T/npm-645-9e60e5e7/registry.npmjs.org/nw-builder/-/nw-builder-2.2.0.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for nw-builder@2.2.0
+43 verbose correctMkdir /Users/muhsin/.npm correctMkdir not in flight; initializing
+44 silly cache afterAdd nw-builder@2.2.0
+45 verbose afterAdd /Users/muhsin/.npm/nw-builder/2.2.0/package/package.json not in flight; writing
+46 verbose correctMkdir /Users/muhsin/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /Users/muhsin/.npm/nw-builder/2.2.0/package/package.json written
+48 silly install resolved [ { name: 'nw-builder',
+48 silly install resolved     version: '2.2.0',
+48 silly install resolved     description: 'nw-builder',
+48 silly install resolved     main: 'index.js',
+48 silly install resolved     scripts: { test: 'colortape test/*.js' },
+48 silly install resolved     repository: { type: 'git', url: 'git://github.com/mllrsohn/nw-builder.git' },
+48 silly install resolved     bin: { nwbuild: './bin/nwbuild' },
+48 silly install resolved     author: { name: 'Steffen Müller' },
+48 silly install resolved     license: 'MIT',
+48 silly install resolved     bugs: { url: 'https://github.com/mllrsohn/nw-builder/issues' },
+48 silly install resolved     homepage: 'https://github.com/mllrsohn/nw-builder',
+48 silly install resolved     keywords: [ 'NW.js', 'node-webkit', 'desktop', 'application' ],
+48 silly install resolved     devDependencies:
+48 silly install resolved      { nock: '^0.32.3',
+48 silly install resolved        tape: '~3.0.1',
+48 silly install resolved        redtape: '~1.0.0',
+48 silly install resolved        colortape: '~0.1.0',
+48 silly install resolved        eol: '~0.2.0' },
+48 silly install resolved     dependencies:
+48 silly install resolved      { archiver: '^0.13.0',
+48 silly install resolved        bluebird: '~1.2.2',
+48 silly install resolved        'decompress-zip': '0.0.8',
+48 silly install resolved        inherits: '~2.0.1',
+48 silly install resolved        lodash: '~2.4.1',
+48 silly install resolved        optimist: '^0.6.1',
+48 silly install resolved        rcedit: '0.2.0',
+48 silly install resolved        plist: '^1.0.0',
+48 silly install resolved        progress: '~1.1.7',
+48 silly install resolved        request: '~2.40.0',
+48 silly install resolved        rimraf: '^2.2.8',
+48 silly install resolved        semver: '^2.3.1',
+48 silly install resolved        'simple-glob': '~0.1.0',
+48 silly install resolved        'tar-fs': '^0.3.2',
+48 silly install resolved        temp: '~0.7.0',
+48 silly install resolved        'update-notifier': '^0.1.8',
+48 silly install resolved        winresourcer: '^0.9.0',
+48 silly install resolved        'platform-overrides': '~1.0.1',
+48 silly install resolved        'graceful-ncp': '^2.0.0',
+48 silly install resolved        'graceful-fs-extra': '^1.0.4',
+48 silly install resolved        deprecate: '~0.1.0' },
+48 silly install resolved     gitHead: '93cc055f31881f876d913a2c44e4fc8dc5b7cffa',
+48 silly install resolved     _id: 'nw-builder@2.2.0',
+48 silly install resolved     _shasum: '47afab91efacb02747ced205352030b7e08df63d',
+48 silly install resolved     _from: 'nw-builder@latest',
+48 silly install resolved     _npmVersion: '2.9.0',
+48 silly install resolved     _nodeVersion: '0.10.24',
+48 silly install resolved     _npmUser: { name: 'adam-lynch', email: 'contact@adamlynch.ie' },
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: '47afab91efacb02747ced205352030b7e08df63d',
+48 silly install resolved        tarball: 'https://registry.npmjs.org/nw-builder/-/nw-builder-2.2.0.tgz' },
+48 silly install resolved     maintainers: [ [Object] ],
+48 silly install resolved     directories: {},
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/nw-builder/-/nw-builder-2.2.0.tgz' } ]
+49 info install nw-builder@2.2.0 into /usr/local/lib
+50 info installOne nw-builder@2.2.0
+51 verbose installOne of nw-builder to /usr/local/lib not in flight; installing
+52 verbose correctMkdir /Users/muhsin/.npm/_locks correctMkdir not in flight; initializing
+53 verbose lock using /Users/muhsin/.npm/_locks/nw-builder-4c331688e7db5287.lock for /usr/local/lib/node_modules/nw-builder
+54 silly install write writing nw-builder 2.2.0 to /usr/local/lib/node_modules/nw-builder
+55 verbose unbuild lib/node_modules/nw-builder
+56 silly gentlyRm /usr/local/lib/node_modules/nw-builder is being purged from base /usr/local
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/nw-builder
+58 verbose tar unpack /Users/muhsin/.npm/nw-builder/2.2.0/package.tgz
+59 verbose tar unpacking to /usr/local/lib/node_modules/nw-builder
+60 silly gentlyRm /usr/local/lib/node_modules/nw-builder is being purged
+61 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/nw-builder
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 error tar.unpack untar error /Users/muhsin/.npm/nw-builder/2.2.0/package.tgz
+64 verbose unlock done using /Users/muhsin/.npm/_locks/nw-builder-4c331688e7db5287.lock for /usr/local/lib/node_modules/nw-builder
+65 verbose fstream_path /usr/local/lib/node_modules/nw-builder
+66 verbose fstream_type Directory
+67 verbose fstream_class DirWriter
+68 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/nw-builder'
+68 verbose stack     at Error (native)
+69 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+69 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+69 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+70 verbose cwd /Users/muhsin/Desktop/fbApp/App
+71 error Darwin 11.2.0
+72 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "nw-builder" "-g"
+73 error node v4.4.1
+74 error npm  v2.14.20
+75 error path /usr/local/lib/node_modules/nw-builder
+76 error code EACCES
+77 error errno -13
+78 error syscall mkdir
+79 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/nw-builder'
+79 error     at Error (native)
+79 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/nw-builder']
+79 error   errno: -13,
+79 error   code: 'EACCES',
+79 error   syscall: 'mkdir',
+79 error   path: '/usr/local/lib/node_modules/nw-builder',
+79 error   fstream_type: 'Directory',
+79 error   fstream_path: '/usr/local/lib/node_modules/nw-builder',
+79 error   fstream_class: 'DirWriter',
+79 error   fstream_stack:
+79 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+79 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+79 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+80 error Please try running this command again as root/Administrator.
+81 verbose exit [ -13, true ]
+82 verbose unbuild lib/node_modules/nw-builder
+83 silly gentlyRm /usr/local/lib/node_modules/nw-builder is being purged from base /usr/local
+84 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/nw-builder

@@ -1,0 +1,27 @@
+<html>
+
+
+<script>
+    function start() {
+
+        /*var appCache = window.open('https://www.messenger.com', '_SELF');
+        }*/
+
+
+        window.location.href = "http://www.messenger.com";
+
+    }
+
+    var options = {
+        icon: "",
+        body: "Here is the notification text"
+    };
+
+    var notification = new Notification("Notification Title", options);
+
+    start();
+    console.log("started");
+
+</script>
+
+</html>
